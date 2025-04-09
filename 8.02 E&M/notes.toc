@@ -1,0 +1,2 @@
+\contentsline {section}{\numberline {1}Electrostatics}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Charge and Electric Forces (4/9/2025)}{2}{subsection.1.1}%

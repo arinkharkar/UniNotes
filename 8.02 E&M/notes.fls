@@ -1,7 +1,7 @@
-PWD c:\Users\Arin\Documents\UniNotes\MATH208 Linear Algebra
+PWD c:\Users\Arin\Documents\UniNotes\8.02 E&M
 INPUT C:\Users\Arin\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Arin\Documents\UniNotes\MATH208 Linear Algebra\LinAlg.tex
-OUTPUT LinAlg.log
+INPUT c:\Users\Arin\Documents\UniNotes\8.02 E&M\notes.tex
+OUTPUT notes.log
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -220,10 +220,10 @@ INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.st
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT .\LinAlg.aux
-INPUT .\LinAlg.aux
-INPUT LinAlg.aux
-OUTPUT LinAlg.aux
+INPUT .\notes.aux
+INPUT .\notes.aux
+INPUT notes.aux
+OUTPUT notes.aux
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -232,22 +232,22 @@ INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopd
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\LinAlg.out
-INPUT .\LinAlg.out
-INPUT LinAlg.out
-INPUT LinAlg.out
-OUTPUT LinAlg.pdf
-INPUT .\LinAlg.out
-INPUT .\LinAlg.out
-OUTPUT LinAlg.out
+INPUT .\notes.out
+INPUT .\notes.out
+INPUT notes.out
+INPUT notes.out
+OUTPUT notes.pdf
+INPUT .\notes.out
+INPUT .\notes.out
+OUTPUT notes.out
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\LinAlg.toc
-INPUT .\LinAlg.toc
-INPUT LinAlg.toc
+INPUT .\notes.toc
+INPUT .\notes.toc
+INPUT notes.toc
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -272,15 +272,16 @@ INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-OUTPUT LinAlg.toc
+OUTPUT notes.toc
 INPUT C:\Users\Arin\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT LinAlg.aux
-INPUT .\LinAlg.out
-INPUT .\LinAlg.out
+INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT notes.aux
+INPUT .\notes.out
+INPUT .\notes.out
+INPUT C:\Users\Arin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\Arin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Arin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
