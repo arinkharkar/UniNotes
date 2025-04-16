@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{physics}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+% Header
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Course: CHEM 139}
+\lhead{Arin Kharkar}
+\cfoot{\thepage}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+% Theorem environments
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newenvironment{proofsketch}{\noindent\textit{Proof Sketch.}}{\hfill$\square$}
+
+% Document
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Chem 139 Notes}} \\
+    \vspace{0.5em}
+    {\large \textit{Instructor: Dr. Jeff Owens \quad | \quad Quarter: Spring 2025}} \\
+    \vspace{0.5em}
+\end{center}
+
+\tableofcontents
+\newpage
+
+% ---- NOTES START HERE ----
+
+\section{Welcome to Class}
+\subsection{Class Rules}
+\begin{itemize}
+    \item Class meets 1x week in LB11007
+    \item Attendance not required
+    \item Most work done in ALEX
+    \item Emails should be sent using Canvas
+\end{itemize}
+
+
+\end{document}

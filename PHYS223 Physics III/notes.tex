@@ -1,0 +1,142 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{physics}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+% Header
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Course: PHYS 223}
+\lhead{Arin Kharkar}
+\cfoot{\thepage}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+% Theorem environments
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newenvironment{proofsketch}{\noindent\textit{Proof Sketch.}}{\hfill$\square$}
+
+% Document
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{PHYS 223 Notes}} \\
+    \vspace{0.5em}
+    {\large \textit{Professor: Dr. Tracy Furratani \quad | \quad Quarter: Spring 2025}} \\
+    \vspace{0.5em}
+\end{center}
+
+\tableofcontents
+\newpage
+
+% ---- NOTES START HERE ----
+
+\section{Task 1}
+
+\section{Task 2}
+
+\section{Task 3 - Describing Simple Harmonic Motion}
+\subsection{Objectives}
+\begin{itemize}
+\item Determine the connection between the mass on a spring and the period of an ideal spring
+\item Determine the connection between the amplitude of oscillation and the period of an ideal spring
+\item Determine the type of damping occuring in a spring system with air resistance
+\item Determine the angular frequency of oscillation of these spring system
+\item Performing data analysis on these measurements including the determination of uncertianties
+\item Propogating uncertianty in a simple ratio
+\end{itemize}
+\subsection{Equipment}
+\begin{itemize}
+    \item Spring of 0.5N
+    \item Weight Holder of 50g
+    \item Ruler measuring up to 1mm
+    \item Solid Weights of 1x10g, 2x20g 1x50g
+\end{itemize}
+\subsection{Prelab Questions}
+\begin{itemize}
+\item 1. Find an equation \begin{equation}
+    F = k_{Hooke} x + b
+\end{equation} by finding 10 points. Perform linear regression, ideally your $r^2$ value should be close to 1 and $b$ should be close to 0.
+\item Use the equation: \begin{equation}
+    T^2 = \frac{4\pi^2(m+M)}{k}
+\end{equation}
+\noindent \(as: \space T^2 = y, \frac{4\pi^2}{k} = slope, \space M=x\)
+\end{itemize}
+\subsection{Procedure}
+\begin{enumerate}
+    \item 
+\end{enumerate}
+\subsection{Lab Members}
+Kris Birch, Arin Kharkar, Emmett Stevens, Joshua Wagonblast, Emma Sweden
+
+\subsection{Data Table 1 (Static Hanging Mass)}
+\begin{tabular}{|c|c|c|c|}
+    \hline
+    Mass (kg) & Uncertianty (kg) & Displacement (m) & Uncertianty (m) \\
+    \hline
+    0.0049611 & 1e-6         & 0.218 & 0.001 \\
+    0.0059588 & 1e-6         & 0.251 & 0.001 \\
+    0.0069575 & 1e-6         & 0.288 & 0.001 \\
+    0.0079536 & 1e-6         & 0.315 & 0.001 \\
+    0.0089685 & 1e-6         & 0.355 & 0.001 \\  
+    0.0099364 & 1e-6         & 0.387 & 0.001 \\
+    0.0109410 & 1e-6         & 0.421 & 0.001 \\
+    0.0119545 & 1e-6         & 0.454 & 0.001 \\
+    0.0129478 & 1e-6         & 0.489 & 0.001 \\
+    0.0139463 & 1e-6         & 0.521 & 0.001 \\
+    0.0149364 & 1e-6         & 0.554 & 0.001 \\
+    \hline
+  \end{tabular}
+
+  \subsection{Data Table 2 (Simple Harmonic Motion)}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{|c|c|c|c|c|c|}
+      \hline
+      Mass (kg) & Displacement (m) & Uncertianty (m) & Angular Frequency (rad/s) & Uncertianty (rad/s) & Period (s) \\
+      \hline
+      0.0049611         & 0.01542 & 0.0002994 & 7.516 & 0.006733 & 0.835974628      \\
+      0.0059588         & 0.01572 & 0.0001691 & 6.921 & 0.003732 & 0.907843564      \\
+      0.0069575         & 0.0172 &  0.00022  &  6.140 &  0.004167 & 1.023320083      \\
+      0.0079536         & 0.01929 & 0.0001777 & 6.017 & 0.003193 & 1.044238874      \\
+      0.0089685         & 0.01727 & 0.0002292 & 5.715 & 0.004703 & 1.099420001      \\  
+      0.0099364         & 0.01946 & 0.0001423 & 5.408 & 0.002495 & 1.161831603      \\
+      0.0109410         & 0.02338 & 0.0003181 & 5.168 & 0.004843 & 1.215786631      \\
+      0.0119545         & 0.02184 & 8.056e-05 & 4.959 & 0.001296 & 1.26702668      \\
+      0.0129478         & 0.02655 & 0.001473  & 4.772 & 0.001296 & 1.316677558      \\
+      0.0139463         & 0.02136 & 0.0003114 & 4.588 & 0.005038 & 1.369482412      \\
+      0.0149364         & 0.01832 & 0.0002812 & 4.409 & 0.005356 & 1.425081721      \\
+      \hline
+
+      
+    \end{tabular}
+  }
+\subsection{Data Table 3 (Simple Harmonic Motion w/ Varying Amplitude)}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    Mass (kg) & Displacement (m) & Uncertianty (m) & Angular Frequency (rad/s) & Uncertianty (rad/s) & Period (s) \\
+    \hline
+    0.0049611         & 0.01929 & 7.1525e-05 & 7.535 & 0.001286 & 0.833866663    \\
+    0.0049611         & 0.01572 & 0.0001691  & 7.537 & 0.0007757 & 0.83364539    \\
+    0.0049611         & 0.09124 & 0.008569   & 7.536 & 0.03259 & 0.833756012    \\
+    \hline
+    \end{tabular}}
+
+\subsection{GUM uncertianty}
+\begin{equation}
+    k_{Hooke} = \frac{F}{x} = \frac{mg}{x} 
+\end{equation}
+\end{document}

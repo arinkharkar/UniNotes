@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.8)  9 APR 2025 09:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.8)  16 APR 2025 10:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Arin/Documents/Notes/8.02 E&M/notes.tex"
-(c:/Users/Arin/Documents/Notes/8.02 E&M/notes.tex
+**"c:/Users/Arin/Documents/Notes/PHYS223 Physics III/notes.tex"
+(c:/Users/Arin/Documents/Notes/PHYS223 Physics III/notes.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -571,11 +571,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 33.
+ (notes.out) (notes.out)
 \@outlinefile=\write4
 \openout4 = `notes.out'.
 
-
-No file notes.toc.
+ (notes.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ (C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ (C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write5
 \openout5 = `notes.toc'.
 
@@ -591,28 +599,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1{C:/Users/Arin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 59--64
-
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
-(C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
- (C:\Users\Arin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-c:/Users/Arin/Documents/Notes/8.02 E&M/notes.tex:67: Undefined control sequence.
-l.67 where \texbf
-                 {q} and \textbf{Q} are the charges of the 2 particles
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -621,33 +607,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2] (notes.aux)
+[2]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3] (notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `notes.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `notes.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  F6E0BAB1CF301260F19848823DE3C5BC;373.
+Package rerunfilecheck Info: File `notes.out' has not changed.
+(rerunfilecheck)             Checksum: 6F73DEAFCE1A5CFB60DBA35F4FDE3EC3;2015.
  ) 
 Here is how much of TeX's memory you used:
- 22221 strings out of 473522
- 406863 string characters out of 5715094
- 787341 words of memory out of 5000000
- 45096 multiletter control sequences out of 15000+600000
+ 22262 strings out of 473522
+ 407695 string characters out of 5715094
+ 809423 words of memory out of 5000000
+ 45117 multiletter control sequences out of 15000+600000
  565684 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,93p,583b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Arin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on notes.pdf (2 pages, 68689 bytes).
+ 84i,11n,93p,594b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Arin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Arin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on notes.pdf (3 pages, 111059 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
